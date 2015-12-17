@@ -1,0 +1,296 @@
+{
+  "espaces": {
+    "espace1": {
+      "id": "informations-rh",
+      "libelle": "Informations RH",
+      "liens": [
+        {
+          "libelle": "Le Site du Pôle",
+          "url": ""
+        },
+        {
+          "libelle": "Mes infos RH",
+          "url": "http://www.intranet-rh.rh.intra.laposte.fr"
+        },
+        {
+          "libelle": "Portail Malin",
+          "url": "http://www.portail-malin.com"
+        },
+        {
+          "libelle": "M@p",
+          "url": "http://www.rh.laposte.fr"
+        },
+        {
+          "libelle": "Mémoscope",
+          "url": "http://www.memoscope.log.intra.laposte.fr"
+        },
+        {
+          "libelle": "Epargne Salariale",
+          "url": "https://www.epargnesalariale.laposte.fr"
+        },
+        {
+          "libelle": "Retraite CNAV",
+          "url": "https://www.lassuranceretraite.fr"
+        },
+        {
+          "libelle": "Mutuelle Générale",
+          "url": "https://www.lamutuellegenerale.fr"
+        }
+      ]
+    },
+    "espace2": {
+      "id": "logistique",
+      "libelle": "Logistique",
+      "liens": [
+        {
+          "libelle": "Le Site du Pôle",
+          "url": ""
+        },
+        {
+          "libelle": "Direction de l'Ingénierie Logistique",
+          "url": ""
+        },
+        {
+          "libelle": "Direction de la Performance",
+          "url": ""
+        },
+        {
+          "libelle": "DOCN Réseau Logistique",
+          "url": ""
+        },
+        {
+          "libelle": "DOCN Technique",
+          "url": "http://app1.collaboratif.courrier.intra.laposte.fr/sites/IntranetDTC/Pages/Accueil.aspx"
+        },
+        {
+          "libelle": "Viapost",
+          "url": "http://www.viapost.fr"
+        }
+      ]
+    },
+    "espace3": {
+      "id": "courrier",
+      "libelle": "Courrier",
+      "liens": [
+        {
+          "libelle": "Le Site du Pôle",
+          "url": ""
+        },
+        {
+          "libelle": "Direction du Courrier Relationnel",
+          "url": ""
+        },
+        {
+          "libelle": "Direction du Courrier Publicitaire",
+          "url": ""
+        },
+        {
+          "libelle": "Direction du Marketing des Grands Comptes et Entreprises",
+          "url": "http://www.connexions-marketing.com"
+        },
+        {
+          "libelle": "Direction des Ventes Grands Comptes",
+          "url": "http://dcgc.dc.courrier.intra.laposte.fr"
+        },
+        {
+          "libelle": "Direction des Ventes Entreprises",
+          "url": "http://i3c.dc.courrier.intra.laposte.fr/site"
+        },
+        {
+          "libelle": "Direction de l'Administration des Comptes Clients",
+          "url": "http://www.acc.courrier.intra.laposte.fr"
+        },
+        {
+          "libelle": "Médiapost",
+          "url": "http://www.mediapost.fr"
+        },
+        {
+          "libelle": "Sogec",
+          "url": "http://www.sogec-marketing.com"
+        },
+        {
+          "libelle": "Médiapost International",
+          "url": ""
+        }
+      ]
+    },
+    "espace4": {
+      "id": "colis",
+      "libelle": "Colis",
+      "liens": [
+        {
+          "libelle": "Le Site du Pôle",
+          "url": "http://www.intranet.intra-coliposte.gae2.intra.laposte.fr"
+        },
+        {
+          "libelle": "Direction Commerciale et Services Clients",
+          "url": "http://www.intranet.intra-coliposte.gae2.intra.laposte.fr/directions/Commercial/accueil.jsp"
+        },
+        {
+          "libelle": "Direction Marketing",
+          "url": "http://www.intranet.intra-coliposte.gae2.intra.laposte.fr/directions/Marketing/nos_missions/nos_missions.jsp"
+        },
+        {
+          "libelle": "Direction Opérations",
+          "url": "http://www.intranet.intra-coliposte.gae2.intra.laposte.fr/directions/Operations/SurfNG/presentation/presentation.jsp"
+        },
+        {
+          "libelle": "Direction des Ressources Humaines",
+          "url": "http://www.intranet.intra-coliposte.gae2.intra.laposte.fr/directions/DRH/accueil.jsp"
+        },
+        {
+          "libelle": "Direction du Système d’Information",
+          "url": "http://www.intranet.intra-coliposte.gae2.intra.laposte.fr/directions/DSI/Cartographie_SI/Cartographie_SI.jsp"
+        },
+        {
+          "libelle": "Direction Administration et Finances",
+          "url": "http://www.intranet.intra-coliposte.gae2.intra.laposte.fr/directions/DAF/accueil.jsp"
+        },
+        {
+          "libelle": "Direction de la Transformation",
+          "url": "http://www.intranet.intra-coliposte.gae2.intra.laposte.fr/directions/Transformation/pole_achats/accueil.jsp"
+        },
+        {
+          "libelle": "Direction de la Qualité et Développement Durable",
+          "url": "http://www.intranet.intra-coliposte.gae2.intra.laposte.fr/directions/Qualite_DD/accueil.jsp"
+        },
+        {
+          "libelle": "DOT Ile-de-France",
+          "url": "http://www.intranet.intra-coliposte.gae2.intra.laposte.fr/directions/DOT_IDF/Presentation.DOT.IDF/Actualites/index.jsp"
+        }
+      ]
+    },
+    "espace5": {
+      "id": "international",
+      "libelle": "International",
+      "liens": [
+        {
+          "libelle": "Le Site du Pôle",
+          "url": ""
+        },
+        {
+          "libelle": "Direction Opérationnelle Asendia France",
+          "url": ""
+        },
+        {
+          "libelle": "Asendia",
+          "url": "http://www.asendia.com/en"
+        },
+        {
+          "libelle": "Direction du Marketing des Grands Comptes et Entreprises",
+          "url": ""
+        },
+        {
+          "libelle": "Direction des Ventes Grands Comptes",
+          "url": ""
+        },
+        {
+          "libelle": "Direction des Ventes Entreprises",
+          "url": ""
+        },
+        {
+          "libelle": "Médiapost",
+          "url": ""
+        },
+        {
+          "libelle": "Sogec",
+          "url": ""
+        },
+        {
+          "libelle": "Médiapost International",
+          "url": ""
+        }
+      ]
+    },
+    "espace6": {
+      "id": "performance",
+      "libelle": "Performance",
+      "liens": [
+        {
+          "libelle": "Le Site du Pôle",
+          "url": ""
+        },
+        {
+          "libelle": "Direction de la Stratégie",
+          "url": "http://www.siege.courrier.intra.laposte.fr/site/dc_strategie"
+        },
+        {
+          "libelle": "Direction du Système d'Information",
+          "url": "http://www.siege.courrier.intra.laposte.fr/site/dsi_c"
+        },
+        {
+          "libelle": "Direction Financière",
+          "url": "http://www.siege.courrier.intra.laposte.fr/site/daf_c"
+        },
+        {
+          "libelle": "Direction des Prix,de la Régularisation et des Affaires Juridiques",
+          "url": ""
+        },
+        {
+          "libelle": "Direction des Activités Presse",
+          "url": ""
+        },
+        {
+          "libelle": "Direction du Pilotage et des Instances",
+          "url": ""
+        },
+        {
+          "libelle": "Direction du Cabinet",
+          "url": "http://www.cabinet.courrier.intra.laposte.fr"
+        },
+        {
+          "libelle": "Direction des Achats",
+          "url": "http://www.siege.courrier.intra.laposte.fr/site/daf_c_achats"
+        },
+        {
+          "libelle": "Direction du Contrôle de gestion",
+          "url": "http://www.siege.courrier.intra.laposte.fr/site/daf_c_cg"
+        }
+      ]
+    },
+    "espace7": {
+      "id": "vie-au-travail",
+      "libelle": "Vie au Travail",
+      "liens": [
+        {
+          "libelle": "Le Site du Pôle",
+          "url": ""
+        },
+        {
+          "libelle": "Direction des Ressources Humaines et des Relations Sociales",
+          "url": "http://www.idrhrs.courrier.intra.laposte.fr"
+        },
+        {
+          "libelle": "Direction de la Qualité et de l'Innovation",
+          "url": "http://dqi.courrier.intra.laposte.fr"
+        },
+        {
+          "libelle": "Direction de la Communication et des Relations Institutionnelles",
+          "url": "http://www.courrier.intra.laposte.fr"
+        },
+        {
+          "libelle": "Direction du Contrôle de la Sureté",
+          "url": "http://www.siege.courrier.intra.laposte.fr/site/surete_courrier"
+        },
+        {
+          "libelle": "Direction des Affaires Générales du Siège",
+          "url": "http://www.siege.courrier.intra.laposte.fr/site/siege_courrier"
+        },
+        {
+          "libelle": "Direction Opérationnelle Paye et Personnel",
+          "url": "http://www.allorh-web.courrier.intra.laposte.fr"
+        }
+      ]
+    },
+    "espace8": {
+      "id": "autres-liens",
+      "libelle": "Autres liens",
+      "liens": [
+        {
+          "libelle": "",
+          "url": ""
+        }
+      ]
+    }
+  }
+}

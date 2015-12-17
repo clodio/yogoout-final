@@ -1,0 +1,123 @@
+<div class="page" id="page-front">
+
+    <header class="entete col18 pagecnx" id="bandeau">
+
+        <!-- Avoidance Links -->
+        <div id="evitement" class="invis">
+            <ul>
+                <li><a href="#menu" tabindex="1" class="evitement">Aller au menu</a></li>
+                <li><a href="#content" tabindex="2" class="evitement" accesskey="s">Aller au contenu</a></li>
+                <li><a href="<%= link.search %>" tabindex="3" accesskey="4" class="evitement" target="_blank">Aller &agrave; la recherche</a></li>
+            </ul>
+            <hr>
+        </div>
+
+        <!-- Hidden header for "Mes Espaces" -->
+        <% include ./partials/header1 %>
+
+        <hr class="ligne-sous-menu" id="line-sous"/>
+
+        <div class="header2" id="id-header2">
+            <div class="header-container">
+
+                <!-- Right column with logo-->
+                <div class="logo col6">
+                    <a id="home-link" href="<%= link.home %>" target="_blank">
+                        <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAnCAYAAABJ0cukAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABXJJREFUeNrsmXtol1UYx39vm5fSvCaZlrO8rdRmNZN5o6wgKzPMyAwjk1g3SjLIwhILii4LYQQZZBeGlQ1b6h+lllte2GYUttVwqUy2ZppS2py5a58Hv28cXvZrv/d3i6ADn9953/ec87zPubznPM/z8yIpTp2dnb3IcmEKXGGPIAPOUX6urlvhJ9gOX3ue1xqLfC9FSp9HNg9ukMLlsBNqUawtShvrxFiYBTOgHgqofySSroQSI+AV+Ajma/TjlTUe3oXlkJFqxQdCIayHiUmWfQcUQ/9UKX8n7IDrUjhAE2GzlmbShPaEt+Et6J2G5TkT3k+WsP5QBksiaUxaprcmKmQw7IHbI2lOvHMYVLrPMuPYHjfCa2xvGwNlI8mMHtAnDv3OwJfIbYm653teI+85BeO43hfPCBTByihlGXAzfAYdnfGlh2LQ4Q1YFI/yd8NuHTjd1R0NH4dU/rRmsTvZS+GpUEuIBnbcF8AtTF1Ht8e75+0nsw6/Q/4MtENTF1X/FJY20a4uBnXscOwI+w3cB7t5wfdhZo36W+jEJC6n6lHw++gnO8jStdQtcMpsa66CPVANm5F3kjwLKsMun3KYFceyG6OPLpZUA2vhEZgczQzh+TeQG0aJIfBbWHuE+lOhIYqybVBhIy5TYUiMMrOkS88wS2gyfMv0tcf4kuFkz0K+zOWITOVKmco/ax1fA0XI/S7EuNjB+bm71cbSgRHQEIPiV5E9BoukuCm2Dep0nweLYbiavBBGeeRfQPY4zA17kPWWTd+VUCubr9E+H0phqeReDQv00QXTF7Aq5Cf1OvxAp8vCdsC2rKEBxW1nmQ7DwByODTAeboNRgfbNWkJNyiusw7Fsx8777tFOmBfPATYXfvEPMPI+cJGuB0GedQiy7SCCC2GA+6ElaP9M0U72arwCRmrnuPFfMN5y4RjsSmhAaFwNpeClUfnZcAL2mQWcqLCHNQv5aVDcjMKV0A57YWiyvC+bhZZU+gFaMuUarE1J9YMRlgNN0ApPxmKVhpA9QQEB3ypdlpLlavYQNOtFZgrcFO+L7AxRQGCrY2KUwKWpXqM5+rD8tB9WwYx/cu61DG27zYdP9IF2yvkpDmWgJRqZk6X4BJhj4RpidmIfgl91gPVS6HCwDj132ZmJXATrONTq4x1QL8HZMAXn6AS2cOBlUaqa8VVjRiGUyfdtSMaK8JK8vMzpvxgGyGwwC/aoEcZ0+D/9l5Knqb+S7GRXTrUMtxw4JsemI1BuS2a0bi10biH0o075JWQTVFYhv9YvM18jG46b/2uOCs+myXd2U61iQhnSpZ9j6f5t6yzuQvmX4QhsgHqFEzMDdcwtrIX3tB02KT6Uobhpo8LtO+QO5jrxnUPaUvfqPPAkr1BbrMWhVpuzJKu0TqGdEvGSCeqh0zU3oJhFCc44pnO2hGYF6lnk4TnnfpsJhjlw3Exrp8xCkiugr/b/6a4N5FyP1bvctub0Lw8Oso3m5dqffwyUzYQ/4Gka2v1AOTeHA/Xs/wBTZrW2UVsyD8CjkbN/Ff3u1O0rn/gUfGj+Le0OaHt9PnL2XxlfZr3fVtaoLbUlXC9QnYOUz8tU5QPcNAcUs7X2FZTofrbqtQT8VLMWV2gdF0O5/Y1EmXlmB526g8jGWZyHchuRe7XtWqcLJSPf6UCVo8sYP3bkuLdt/gyM0gvudxpslZA3eVmpb58HhEb0cdporpVSbmoEs3Wq9LIH5eTXKM5/GnZpVmx01wVmtdq5P6z65hfvVCdsNXxgHfhUB88kp4GN/BY56X6qUeNgRPnFLpS3tAwsgjxNB9oaWG/hGbmHd8H1mrmFPN/utC1X5/wIn33sFiRYqJVh6YT9/CXAAIXVAX/4Xd/eAAAAAElFTkSuQmCC"/>
+                    </a>
+
+
+                    <div class="select" id="select">
+                        <h2>
+                            <a>
+                                <span class="text-uppercase text-white text-italic text-left text-block">Intranet</span>
+                                <span class="text-uppercase text-white text-bold-italic text-left text-block">Services-courrier-colis</span>
+                            </a>
+                        </h2>
+                        <div class="select-dropdown">
+                            <a href="#">
+                                <span class="text-uppercase text-white text-italic text-left text-block">Intranet</span>
+                                <span class="text-uppercase text-white text-bold-italic text-left text-block">Services-courrier-colis</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Middle column with "espace" button -->
+                <div class="espace col6">
+                    <button href="#0" tabindex="4" aria-expanded="false" class="espace-button" id="espace">
+                        <span class="text-uppercase text-white text-bold text-center">Les espaces</span>
+                    </button>
+                </div>
+
+                <!-- Right column with search, authentication and applications -->
+                <div class="col6 link-right">
+                    <ul class="rightheader" id="header-right">
+
+                        <!-- Login icon with login form and notification block -->
+                        <li>
+                            <% include ./partials/popover_block %>
+                        </li>
+
+                        <!-- Search form -->
+                        <li>
+                            <a href="<%= link.search %>" class="search" id="recherche" target="_blank">
+
+                                <img alt="Recherche" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkMzQ0FEODc2NjE0MjExRTVBMEZEOEYxOTZGMDMxRDc2IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkMzQ0FEODc3NjE0MjExRTVBMEZEOEYxOTZGMDMxRDc2Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QzNDQUQ4NzQ2MTQyMTFFNUEwRkQ4RjE5NkYwMzFENzYiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QzNDQUQ4NzU2MTQyMTFFNUEwRkQ4RjE5NkYwMzFENzYiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6+YrQrAAABXklEQVR42qyUzStEYRTG73sVJYspC0mx8ZHEwsrOCjslVix8JDul8C9Y+AOs2VvRzMqCko0URZmSsjBhYrJBpNfv5tw6vd1752146jdz6n3mufeee86EgZK1NoRp2IMn+6s3OIcNaA18hLEHLmy23mGlWlAfvKofncIaTMEcbEtQrM20oAa4EdMnzKb42uFMBU4kmZaVYb7KEzTDnXiLSYYTOYyabDx6u6AuPqjPQuiXOm+MsR7vKq/qATesSepK4KcXVefcsAepuz3DtK/khh1JPUkPch5hi3H74Nht6LBq6C7UZTR/BL5ib5ppRwUeREPsnDfCusyhlQHvSAurh4KzOpewD4eyn1ol6Mqan2jJV6GSsZtReK/8EZRhCzrjDJMQGo3KKAxBC3zANRSYw2L8JHzdQhvcwxhnV0GtInAJvuWOy+421BI4o97uY/BXETIOz9HYGD6C/9KPAAMAMGPXmcqfVPIAAAAASUVORK5CYII="/>
+                            </a>
+                            <div role="search" class="search-div profil" id="search">
+                                <form>
+                                    <label for="recher-input" id="recher-label">Entrez votre texte...</label>
+                                    <input type="text" title="Recherche" class="recher-input" id="recher-input" maxlength="100">
+                                </form>
+                                <button class="trouver">Trouver</button>
+                            </div>
+                        </li>
+
+                        <!-- List of applications -->
+                        <li id="list-of-applications" class="dernier">
+                            <a href="#0" id="application-id" class="application">
+                                <img alt="Applications" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjM3NzFGMjVCNjE0MzExRTU5QjI1OUYyMkQ5OTA0MjIyIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjM3NzFGMjVDNjE0MzExRTU5QjI1OUYyMkQ5OTA0MjIyIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6Mzc3MUYyNTk2MTQzMTFFNTlCMjU5RjIyRDk5MDQyMjIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6Mzc3MUYyNUE2MTQzMTFFNTlCMjU5RjIyRDk5MDQyMjIiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5oXPZvAAAAwElEQVR42mL4////3/+YYCUQR/7HDiKh8ujgLxMDAwMIowN2KGYgQY6JiYGKYPAaxggMuGggzYomfguIHwGxCxY9e4BYDojV0MR/swCJACyGHYTSAVgMA1lkDsT22AwLweHq90Dsj0V8A9Qg/6ETAVQ1DBRma6E0MjgExLeBeCMWPbeh8ujgD8iQ9XiSxgYsmh4C8X8gfocemww4MvMGIE7AIZcAlccAIyQ2QYb9wyL+E4oZSJD7B8roVHMZQIABAMXrtxCrhBbGAAAAAElFTkSuQmCC"/>
+                            </a>
+                            <div id="liste-appli" class="prof profil">
+
+                                <div class="entete-appli"></div>
+                                <ul id="appl">
+                                    <!-- Application list goes here -->
+                                </ul>
+                                <a href="<%= link.wac %>" id="wac-link" class="ttapplica" target="_blank"><span class="text-uppercase text-bold text-center">Accéder à Toutes les applis</span></a>
+                                <div class="dragging-over">
+                                    <p>Glisser ici pour <br> Ajouter aux Favoris</p>
+                                </div>
+
+                            </div>
+                            <div id="app-notification">
+                                <span class="add">l’application a bien été ajoutée<br>à vos Favoris.</span>
+                                <span class="remove">l’application a bien été retirée<br>de vos Favoris.</span>
+                                <span class="toomuch">vous avez trop d'application<br>dans vos Favoris.</span>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main content of the page -->
+    <% include ./partials/main %>
+
+    <% include ./backbone/notification_block %>
+    <% include ./backbone/login_form %>
+    <% include ./backbone/login_icon_status %>
+
+    <% if(auto_connect && is_first_visit && !(is_authenticated)){ %>
+
+    <iframe height="0" width="0" src="<%= prefix + '/sp/login'%>"/>
+
+    <% } %>
+
+
+</div>
+
+<div class="overlay" id="overlay-body"></div>

@@ -1,0 +1,7 @@
+{
+    "name": "id",
+    "in": "path",
+    "description": "Identifiant RH de l'utilisateur, ou la valeur 'self' pour indiquant l'utilisateur authentifié en train de réaliser l'appel",
+    "required": true,
+    "type": "string"
+}

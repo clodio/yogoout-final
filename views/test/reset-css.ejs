@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Test bandeau</title>
+    <script id="bandeau-script" src="<%= baseURL + '/dist/js/bandeau.min.js' %>"></script>
+    <link rel="stylesheet" type="text/css" href="<%= baseURL + '/dist/css/connerie.css' %>">
+</head>
+<body>
+<div id="bandeau-portail"></div>
+<br>
+<br>
+
+
+<br/>
+<br/>
+<br/>
+<span> Je suis écrit en Arial ?</span>
+
+<script type="text/javascript">
+    document.getElementById("jq-banner-version").innerHTML = bandeauModule.$.fn.jquery;
+    document.getElementById("jq-page-version").innerHTML = $.fn.jquery;
+</script>
+
+
+</body>
+</html>

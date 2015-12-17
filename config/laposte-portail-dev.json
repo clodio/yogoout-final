@@ -1,0 +1,71 @@
+{
+
+  "ip_vip": "10.78.0.11",
+  "port_ecoute": 8080,
+  "nom_de_domaine": "laposte-portail-entreprise.octo.com/portail",
+  "protocole": "https",
+  "port_dans_url": false,
+  "desactiver_https": true,
+  "log_console": true,
+  "auto_connect_timeout": 30000,
+
+  "database": {
+    "hostname" : "localhost",
+    "login" : "b7_admaa",
+    "password" : "b7_admaa",
+    "name" : "b7_portail_aa"
+  },
+  "https": {
+    "cle_privee" : "config/certificats/tls-demo-private.pem",
+    "certificat" : "config/certificats/tls-demo-pub.crt",
+    "truststore": [
+      "config/certification_authorities/acc-ws.i2a.courrier.intra.laposte.fr.crt",
+      "config/certification_authorities/ws.i2a.courrier.intra.laposte.fr.crt"
+    ]
+  },
+  "logs": {
+  	"main_path": "/b7_/b7_admaa/u1/logs/b7_-u1-main.log",
+  	"accesslog_path": "/b7_/b7_admaa/u1/logs/b7_-u1-access.log",
+  	"main_level":"info",
+  	"accesslog_level":"info"
+  },
+  "hapi_auth_cookie": {
+    "name": "session",
+    "password": "thepassword",
+    "isSecure": true,
+    "clearInvalid": true,
+    "ttl": 120000
+  },
+  "passport": {
+    "sp": {
+      "cert": "config/saml/sp/laposte-portail-dev/cert.pem",
+      "pkey": "config/saml/sp/laposte-portail-dev/privkey.pem"
+    },
+    "idp": {
+      "cert": "/b7_/b7_adm/u1/config/saml/idp/accostage/cert.pem"
+    },
+    "callback_url": "/sp/assert",
+    "entryPoint": "",
+    "issuer": "laposte-portail-dev"
+  },
+  "webservices": {
+    "i2a_userApplications_url": "https://acc-ws.i2a.courrier.intra.laposte.fr/v2.0.8/utilisateur/service/idrh/intranet",
+    "i2a_allApplications_url": "https://acc-ws.i2a.courrier.intra.laposte.fr/v2.0.8/service",
+    "i2a_ws_login": "fake",
+    "i2a_ws_password": "crendentials"
+  },
+  "liens_statiques": {
+    "search": "https://www.google.com",
+    "my_subscriptions": "https://www.bing.com",
+    "home": "http://www.lemonde.fr",
+    "wac": "http://www.wac.courrier.intra.laposte.fr"
+  },
+  "features": {
+    "activer_popup_connexion": true,
+    "activer_connexion_i2a": false,
+    "connexion_sans_i2a_reussie": true,
+    "auto_connect": true,
+    "mock_webservice": true
+  },
+  "activer_feature_flipping": true
+}

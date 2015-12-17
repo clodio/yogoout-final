@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Test bandeau</title>
+    <script id="bandeau-script" src="<%= baseURL + '/dist/js/bandeau.min.js' %>"></script>
+    <script id="bandeau-script" src="<%= baseURL + '/dist/js/jquery-2.1.4.min.js' %>"></script>
+</head>
+<body>
+<div id="bandeau-portail"></div>
+<br>
+<br>
+
+<p> Version JQuery du module bandeau : <span id="jq-banner-version"> </span> </p>
+
+<p> Version JQuery de la page : <span id="jq-page-version"> </span> </p>
+
+<script type="text/javascript">
+    document.getElementById("jq-banner-version").innerHTML = bandeauModule.$.fn.jquery;
+    document.getElementById("jq-page-version").innerHTML = $.fn.jquery;
+</script>
+
+
+</body>
+</html>

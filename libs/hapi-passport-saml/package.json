@@ -1,0 +1,53 @@
+{
+  "name": "hapi-passport-saml",
+  "version": "0.1.0",
+  "description": "A Hapi plugin that wraps passport-saml for SAML SSO (as SP)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/molekilla/hapi-passport-saml.git"
+  },
+  "keywords": [
+    "saml",
+    "sso",
+    "hapi"
+  ],
+  "author": {
+    "name": "Rogelio Morrell"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/molekilla/hapi-passport-saml/issues"
+  },
+  "homepage": "https://github.com/molekilla/hapi-passport-saml#readme",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "hapi": "^9.2.0",
+    "passport-saml": "^0.12.0"
+  },
+  "gitHead": "6a71665a088a0a058b2a54369369ee8902d06546",
+  "_id": "hapi-passport-saml@0.1.0",
+  "_shasum": "05ccf0085045d693aba9d1e2085833a730640793",
+  "_from": "hapi-passport-saml@*",
+  "_npmVersion": "2.11.2",
+  "_nodeVersion": "0.12.6",
+  "_npmUser": {
+    "name": "molekilla",
+    "email": "molekilla@gmail.com"
+  },
+  "dist": {
+    "shasum": "05ccf0085045d693aba9d1e2085833a730640793",
+    "tarball": "http://registry.npmjs.org/hapi-passport-saml/-/hapi-passport-saml-0.1.0.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "molekilla",
+      "email": "molekilla@gmail.com"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/hapi-passport-saml/-/hapi-passport-saml-0.1.0.tgz"
+}

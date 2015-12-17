@@ -1,0 +1,94 @@
+<div id="loginWin" class="modecnx profil">
+
+    <div class="headercnx">
+        <span><img src="<%= prefix + "/dist/img/notification.png" %>" alt=""/></span>
+        <span class="text-white text-uppercase text-fat text-left">NOTIFICATIONS</span>
+    </div>
+
+    <div class="inside">
+
+        <div id="scrol" class="content">
+            <% if (false) { %>
+            <ul>
+                <li class="maintenance odd">
+                    <a href="">
+                        <span class="imagecnx"></span>
+
+                        <h2 class="titre">"webmail" est en maintenance</h2>
+                        <span class="soustitre">Je suis une mention informative</span>
+                        <span class="desc">Ir cusdsdccs familiarem suum cum suis familiarem suum cum Ir cusdsdcc s suis un cusdsdccs Je su suis un suum [...]</span>
+                    </a>
+                </li>
+                <li class="article even">
+                    <a href="">
+                        <span class="imagecnx"></span>
+
+                        <h3 class="titre">nouvel article en ligne!</h3>
+                        <span class="soustitre">Je suis une mention informative</span>
+                        <span class="desc">Familiarem suum cum Ir cusdsdccs suis un cusdsdccs un suum.</span>
+                    </a>
+                </li>
+                <li class="securite odd">
+                    <a href="">
+                        <span class="imagecnx"></span>
+
+                        <h3 class="titre">plus que 5 jours pour changer votre mot de passe </h3>
+                        <span class="soustitre">Je suis une mention informative</span>
+                        <span class="desc">Ir cusdsdccs familiarem suum cum suis un cusdsdccs Je su suis un suum [...]</span>
+                    </a>
+                </li>
+                <li class="article even">
+                    <a href="">
+                        <span class="imagecnx"></span>
+
+                        <h3 class="titre">nouvel article en ligne!</h3>
+                        <span class="soustitre">Je suis une mention informative</span>
+                        <span class="desc">Familiarem suum cum Ir cusdsdccs suis un cusdsdccs un suum.</span>
+                    </a>
+                </li>
+                <li class="maintenance odd">
+                    <a href="">
+                        <span class="imagecnx"></span>
+
+                        <h2 class="titre">"webmail" est en maintenance</h2>
+                        <span class="soustitre">Je suis une mention informative</span>
+                        <span class="desc">Ir cusdsdccs familiarem suum cum suis familiarem suum cum Ir cusdsdcc s suis un cusdsdccs Je su suis un suum [...]</span>
+                    </a>
+                </li>
+            </ul>
+            <% } %>
+        </div>
+        <div class="notification">
+            <!--<button class="seeall">VOIR TOUTES LES NOTIFICATIONS</button>-->
+            <div class="notification-container">
+              <!--<span class="notification-span"><a class="" href="#0">
+                      <div class="notification-content">
+                          <p class="image first"><img src="<%= prefix + "/dist/img/profil.png" %>" alt=""/></p>
+
+                          <p class="profils text-uppercase text-bold text-left">CONFIGURER LE PROFIL</p>
+                      </div>
+                  </a></span>-->
+              <span class="notification-span"><a class="" href="<%= link.subscriptions %>" target="_blank">
+                      <div class="notification-content">
+                          <p class="image"><img src="<%= prefix + "/dist/img/notif.png" %>" alt=""/></p>
+
+                          <p class="abonnements text-gray text-uppercase text-bold text-left">G&Eacute;RER LES ABONNEMENTS</p>
+                      </div>
+                  </a></span>
+
+                <!--<div class="clear"></div>-->
+                <!-- TODO we put it in form to respect the design-->
+                <div class="button">
+                    <form name="login" action="<%= prefix + "/logout" %>" method="POST">
+                        <button class="btn" id="disconnectButtn"><a><span class="text-white text-uppercase text-bold text-center">SE D&Eacute;CONNECTER</span></a></button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+

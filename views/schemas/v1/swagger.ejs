@@ -1,0 +1,140 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Api Portail Entreprise"
+    },
+    "host": "<%=base_url%>",
+    "basePath": "/api/v1",
+    "schemes": [
+        "https"
+    ],
+    "consumes": [
+        "application/json"
+    ],
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/users/{id}": {
+            "get": {
+                "description": "Retourne le profile de l'utiisateur {id}",
+                "produces": [ "application/json" ],
+                "tags": [ "Users" ],
+                "parameters": [
+                    "$ref": "user.id.schema.json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "liste des applications",
+                        "schema": {
+                            "$ref": "user.schema.json"
+                        }
+                    },
+                    "4XX-5XX": {
+                        "description": "Error",
+                        "schema": {
+                            "$ref": "error.schema.json"
+                        }
+                    }
+                }
+            }
+        },
+        "/users/{id}/favorites": {
+            "get": {
+                "description": "Retourne la liste des applications favorites de l'utilisateur {id}<br>Cette liste est dans l'ordre personnalisé de l'utilisateur",
+                "produces": [ "application/json" ],
+                "tags": [ "Users" ],
+                "parameters": [
+                    "$ref": "user.id.schema.json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "liste des applications",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "application.schema.json"
+                            }
+                        }
+                    },
+                    "4XX-5XX": {
+                        "description": "Error",
+                        "schema": {
+                            "$ref": "error.schema.json"
+                        }
+                    }
+                }
+            }
+        },
+        "/users/{id}/applications": {
+            "get": {
+                "description": "Retourne la liste complète des applications habilitées pour l'utilisateur {id}",
+                "produces": [ "application/json" ],
+                "tags": [ "Users" ],
+                "parameters": [
+                    "$ref": "user.id.schema.json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "liste des applications",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "user.id.applications.schema.json"
+                            }
+                        }
+                    },
+                    "4XX-5XX": {
+                        "description": "Error",
+                        "schema": {
+                            "$ref": "error.schema.json"
+                        }
+                    }
+                }
+            }
+        },
+        "/applications": {
+            "get": {
+                "description": "Retourne la liste globale des applications connues du Portail Entreprise.",
+                "produces": [ "application/json" ],
+                "tags": [ "Applications"],
+                "parameters": [
+                    {
+                        "name": "default",
+                        "in": "query",
+                        "description": "Si 'true', indique que l'on souhaite lister les applications disponibles par défaut dans le rubicube du portail.",
+                        "enum": ["true", "false"],
+                        "required": false,
+                        "type":"string"
+                    },
+                    {
+                        "name": "i2a_secured",
+                        "in": "query",
+                        "description": "Si 'true', indique que l'on souhaite lister les applications sécurisées i2a.",
+                        "enum": ["true", "false"],
+                        "required": false,
+                        "type":"string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "liste des applications",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "application.schema.json"
+                            }
+                        }
+                    },
+                    "4XX-5XX": {
+                        "description": "Error",
+                        "schema": {
+                            "$ref": "error.schema.json"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

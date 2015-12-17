@@ -1,0 +1,27 @@
+{
+    "type": "object",
+    "required": [
+        "statusCode",
+        "error"
+    ],
+    "properties": {
+        "statusCode": {
+            "type": "integer",
+            "format": "int32",
+            "description":"Status HTTP de la réponse"
+        },
+        "error": {
+            "type": "string",
+            "description":"Libellé de l'erreur HTTP"
+        },
+        "code": {
+            "type": "integer",
+            "format": "int32",
+            "description":"Code applicatif de l'erreur"
+        },
+        "message": {
+            "type": "string",
+            "description":"Libellé de l'erreur applicative"
+        }
+    }
+}

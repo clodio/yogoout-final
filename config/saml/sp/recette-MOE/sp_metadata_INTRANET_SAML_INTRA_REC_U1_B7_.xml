@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="CILPW317">
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEYTCCA0mgAwIBAgIJAPN9HSL77ALnMA0GCSqGSIb3DQEBBQUAMH0xCzAJBgNVBAYTAkZSMQwwCgYDVQQIEwNpZGYxDjAMBgNVBAcTBVBhcmlzMREwDwYDVQQKEwhMYSBQb3N0ZTENMAsGA1UECxMEYnNjYzERMA8GA1UEAxMIQ0lMUFczMTcxGzAZBgkqhkiG9w0BCQEWDHd3b0BvY3RvLmNvbTAeFw0xNTA5MjkwOTUzNTZaFw0yNTA5MjgwOTUzNTZaMH0xCzAJBgNVBAYTAkZSMQwwCgYDVQQIEwNpZGYxDjAMBgNVBAcTBVBhcmlzMREwDwYDVQQKEwhMYSBQb3N0ZTENMAsGA1UECxMEYnNjYzERMA8GA1UEAxMIQ0lMUFczMTcxGzAZBgkqhkiG9w0BCQEWDHd3b0BvY3RvLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKR3sdOQikBSVbQ4kohpQb6xluIde2uFkIXzf/QpHwjhqzAqWHrRibDRMm8TgJ+k3AAbmEytHEdgtF/6JdYD14AaFq9Llw4CwkIAXBXpFU/pEaawmJea9Gb1aI+mH5N5+VUJw6x8SycG2oDwd+4HxF5aN10HiTlAZmTlsJZqgoLkVlvXxtVpOJXGU+e8FESFmAA8XaWMWmfxi/4VQsLiFBmb2bVPXH/ejlro+qZx8gTTVAjmxgoNSt1/dVihOJiV2rZFTPXqyL5CuSwvTjw6z3Ub+vsqLs/Q3/ugh5nuQUAfQtWCCv2nDsSnQ8nx+vB7GowQf57e/c0ilMKtrfyN0q8CAwEAAaOB4zCB4DAdBgNVHQ4EFgQUdNF1ndQNkWERjZMrgg9XKISEAUUwgbAGA1UdIwSBqDCBpYAUdNF1ndQNkWERjZMrgg9XKISEAUWhgYGkfzB9MQswCQYDVQQGEwJGUjEMMAoGA1UECBMDaWRmMQ4wDAYDVQQHEwVQYXJpczERMA8GA1UEChMITGEgUG9zdGUxDTALBgNVBAsTBGJzY2MxETAPBgNVBAMTCENJTFBXMzE3MRswGQYJKoZIhvcNAQkBFgx3d29Ab2N0by5jb22CCQDzfR0i++wC5zAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBQUAA4IBAQAizZxAaDePhPYsz3qwkQF42EBhW5P13qYqFybmlTIun6fb4w9vYV8/854a3Pvm4UJbMdN/FDI5hKi/d6C7nEzTnHEpMvUrYbwCQPqGyWeOvWrZ2Fr2xsvzzmKLVqt8fmo4dXwk3OVJ/EY3HYI9RuvGR9aD+D/hyhjHJbW18RD1SIR21N5WLXmuyyTUq46cvW5PD8JcNs3CzFcJ3UkQDJQa1Mg5Du/9xHQVZlskr1maLb60fseiffw4ja2acxrPVbDguNnEq0NxHgot/ACTsycQZ50gUOK0roL4yHD1BHFKJbcs1sq8ot8irRhY+LNRsJqri8czJocse7I3hScIbnbY</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEYTCCA0mgAwIBAgIJAPN9HSL77ALnMA0GCSqGSIb3DQEBBQUAMH0xCzAJBgNVBAYTAkZSMQwwCgYDVQQIEwNpZGYxDjAMBgNVBAcTBVBhcmlzMREwDwYDVQQKEwhMYSBQb3N0ZTENMAsGA1UECxMEYnNjYzERMA8GA1UEAxMIQ0lMUFczMTcxGzAZBgkqhkiG9w0BCQEWDHd3b0BvY3RvLmNvbTAeFw0xNTA5MjkwOTUzNTZaFw0yNTA5MjgwOTUzNTZaMH0xCzAJBgNVBAYTAkZSMQwwCgYDVQQIEwNpZGYxDjAMBgNVBAcTBVBhcmlzMREwDwYDVQQKEwhMYSBQb3N0ZTENMAsGA1UECxMEYnNjYzERMA8GA1UEAxMIQ0lMUFczMTcxGzAZBgkqhkiG9w0BCQEWDHd3b0BvY3RvLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKR3sdOQikBSVbQ4kohpQb6xluIde2uFkIXzf/QpHwjhqzAqWHrRibDRMm8TgJ+k3AAbmEytHEdgtF/6JdYD14AaFq9Llw4CwkIAXBXpFU/pEaawmJea9Gb1aI+mH5N5+VUJw6x8SycG2oDwd+4HxF5aN10HiTlAZmTlsJZqgoLkVlvXxtVpOJXGU+e8FESFmAA8XaWMWmfxi/4VQsLiFBmb2bVPXH/ejlro+qZx8gTTVAjmxgoNSt1/dVihOJiV2rZFTPXqyL5CuSwvTjw6z3Ub+vsqLs/Q3/ugh5nuQUAfQtWCCv2nDsSnQ8nx+vB7GowQf57e/c0ilMKtrfyN0q8CAwEAAaOB4zCB4DAdBgNVHQ4EFgQUdNF1ndQNkWERjZMrgg9XKISEAUUwgbAGA1UdIwSBqDCBpYAUdNF1ndQNkWERjZMrgg9XKISEAUWhgYGkfzB9MQswCQYDVQQGEwJGUjEMMAoGA1UECBMDaWRmMQ4wDAYDVQQHEwVQYXJpczERMA8GA1UEChMITGEgUG9zdGUxDTALBgNVBAsTBGJzY2MxETAPBgNVBAMTCENJTFBXMzE3MRswGQYJKoZIhvcNAQkBFgx3d29Ab2N0by5jb22CCQDzfR0i++wC5zAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBQUAA4IBAQAizZxAaDePhPYsz3qwkQF42EBhW5P13qYqFybmlTIun6fb4w9vYV8/854a3Pvm4UJbMdN/FDI5hKi/d6C7nEzTnHEpMvUrYbwCQPqGyWeOvWrZ2Fr2xsvzzmKLVqt8fmo4dXwk3OVJ/EY3HYI9RuvGR9aD+D/hyhjHJbW18RD1SIR21N5WLXmuyyTUq46cvW5PD8JcNs3CzFcJ3UkQDJQa1Mg5Du/9xHQVZlskr1maLb60fseiffw4ja2acxrPVbDguNnEq0NxHgot/ACTsycQZ50gUOK0roL4yHD1BHFKJbcs1sq8ot8irRhY+LNRsJqri8czJocse7I3hScIbnbY</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://cilpw317.net3-courrier.extra.laposte.fr:8443/sp/logout"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://cilpw317.net3-courrier.extra.laposte.fr:8443/sp/assert" index="1"/>
+  </md:SPSSODescriptor>
+  <md:ContactPerson contactType="technical">
+      <md:GivenName>Liste de diffusion Portail Entreprise BSCC</md:GivenName>
+      <md:EmailAddress>vincent.michelot@laposte.fr</md:EmailAddress>
+  </md:ContactPerson>
+  <md:Organization>
+      <md:OrganizationDisplayName xml:lang="fr">INTRANET SAML_INTRA REC U1 B7_</md:OrganizationDisplayName>
+      <md:OrganizationName xml:lang="fr">INTRANET SAML_INTRA REC U1 B7_</md:OrganizationName>
+      <md:OrganizationURL xml:lang="fr">http://www.laposte.fr/</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>
+

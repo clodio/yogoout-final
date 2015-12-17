@@ -1,0 +1,6 @@
+/b7_/b7_admaa/u1/logs/*.log {
+        rotate 30
+        daily
+        missingok
+        create 0640 node b7_
+}

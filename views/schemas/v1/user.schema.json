@@ -1,0 +1,33 @@
+{
+  "type": "object",
+  "properties": {
+    "first_name": {
+      "description": "Prénom de l'utilisateur",
+      "type": "string"
+    },
+    "last_name": {
+      "description": "Nom de famille de l'utilisateur",
+      "type": "string"
+    },
+    "salutation": {
+      "description": "Salutation de la personne (M., Mme, ...)",
+      "type": "String"
+    },
+    "uid": {
+      "description": "Identifiant RH unique de l'utilisateur",
+      "type": "string"
+    },
+    "email": {
+      "description": "Email de l'utilisateur",
+      "type": "string"
+    },
+    "phone": {
+      "description": "Numéro de téléphone professionel",
+      "type": "string"
+    },
+    "title": {
+      "description": "Titre du poste occupé",
+      "type": "string"
+    }
+  }
+}

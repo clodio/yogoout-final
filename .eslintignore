@@ -1,0 +1,16 @@
+node_modules/**
+libs/**
+dist/**
+app/utils/logger.js
+config/**
+coverage/**
+swagger-ui/**
+schemas/**
+test/**
+pm2-conf.js
+public/js/web-agency/jquery.sortable.js
+public/js/web-agency/jquery.vmap.js
+public/js/web-agency/jquery-1.11.0.js
+public/js/web-agency/jquery-2.1.4.min.js
+public/js/web-agency/jquery-ui.js
+public/js/web-agency/settings.js

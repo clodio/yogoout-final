@@ -1,0 +1,91 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 741 (0x2e5)
+    Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=FR, ST=Champagne, L=Chalons, O=La Poste, OU=Courrier, CN=I2A_FEDERATION/emailAddress=cos-certificats.dtp@laposte.fr
+        Validity
+            Not Before: Oct  5 12:09:07 2015 GMT
+            Not After : Oct  4 12:09:07 2018 GMT
+        Subject: C=FR, ST=IDF, L=St ouen, O=La Poste, OU=BSCC, CN=www.acc-bandeauportail.net2-courrier.extra.laposte.fr/emailAddress=cos-certificats.dtp@laposte.fr
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:d7:1f:f0:26:80:38:b4:20:c8:f6:54:fb:7d:96:
+                    77:07:28:e8:9a:c0:7c:ee:59:03:a4:92:f7:91:4b:
+                    42:40:c2:a9:2b:db:1d:5c:9a:23:ff:82:61:54:20:
+                    a1:48:78:bd:f9:f9:ab:53:1b:f4:17:d0:c6:23:03:
+                    df:18:c0:f9:f6:fa:78:ea:e0:74:b7:3a:93:77:ba:
+                    b8:c9:a3:b4:24:8c:94:68:56:30:8a:94:e1:f1:6b:
+                    37:7a:b2:d0:d1:61:2a:16:06:e0:27:49:42:3e:27:
+                    88:ca:4e:8d:73:fb:9e:16:1a:12:3c:ea:a3:dd:59:
+                    66:54:3c:3b:e4:34:1e:16:fa:b8:eb:e6:a5:8f:7c:
+                    38:8f:c7:ac:b9:40:22:45:02:6a:c3:24:03:2d:9c:
+                    9d:fb:f5:ad:8d:56:29:4f:a2:0a:a8:85:e2:57:e3:
+                    81:2e:b2:1a:48:43:fd:57:ec:1c:56:0f:24:17:aa:
+                    a0:31:1c:13:90:09:b1:22:73:b4:83:fa:a7:24:f7:
+                    10:0f:42:fd:aa:32:90:9c:9a:40:9f:37:1d:c5:c6:
+                    af:89:50:db:4a:c3:30:99:10:85:f9:8d:6b:38:23:
+                    9f:f0:36:a0:df:0d:21:5f:90:8b:9d:1b:25:5c:30:
+                    55:73:15:6a:5d:f7:10:41:bf:75:90:65:3a:64:76:
+                    9f:07
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Key Usage: 
+                Digital Signature, Key Encipherment
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication, TLS Web Client Authentication
+            X509v3 Subject Key Identifier: 
+                19:AE:9E:0E:56:A3:CE:65:A4:66:F1:17:F2:41:DF:8C:C7:58:91:75
+            X509v3 Authority Key Identifier: 
+                keyid:9C:28:8E:1A:31:C4:01:80:2D:81:16:CE:F4:1D:A1:5F:9A:2F:FE:95
+
+            X509v3 Subject Alternative Name: 
+                DNS:www.acc-bandeauportail.net2-courrier.extra.laposte.fr, DNS:back.acc-bandeauportail.net2-courrier.extra.laposte.fr
+    Signature Algorithm: sha1WithRSAEncryption
+         29:64:3a:66:d8:ef:52:a7:53:b5:4e:ac:07:27:7e:54:78:fc:
+         85:2e:ac:5c:ba:7f:1e:f3:60:e0:a8:dc:5d:68:2e:af:23:7a:
+         8b:fd:a1:8a:59:2f:54:05:75:5c:fb:61:20:21:8c:24:1d:5d:
+         d1:a7:4d:07:a8:3d:ab:da:12:64:cc:6c:77:8a:fe:34:1b:61:
+         e3:e8:0f:12:62:df:ff:26:21:71:e9:d6:43:e5:97:de:dd:00:
+         c3:68:ac:95:f3:1b:10:c2:5b:aa:98:d0:f2:b7:a0:11:57:5a:
+         71:c8:c1:60:c7:f3:97:f7:98:b1:5e:48:60:23:ef:30:0b:71:
+         04:25:25:21:8c:06:fc:18:44:3a:0e:18:e1:d6:42:2d:4b:68:
+         cb:5a:8b:81:ff:38:70:65:46:24:66:cb:07:c5:73:29:7a:01:
+         d6:b3:a9:0b:f1:ba:42:97:93:5e:0f:4c:36:0c:00:d4:ee:de:
+         ea:cc:a9:9f:63:58:e2:5a:9c:9f:5d:d3:7a:38:9c:67:9a:bd:
+         c6:c0:2b:9f:cf:76:2d:c3:f2:e9:46:b8:e0:3c:bd:33:07:b0:
+         36:06:a4:53:38:65:77:c6:6a:fc:12:be:08:36:6f:27:4b:eb:
+         24:fe:71:4f:25:d4:fb:2d:43:77:a9:a4:bd:b2:bf:1f:cb:5c:
+         9f:2c:0c:9d
+-----BEGIN CERTIFICATE-----
+MIIE0jCCA7qgAwIBAgICAuUwDQYJKoZIhvcNAQEFBQAwgaExCzAJBgNVBAYTAkZS
+MRIwEAYDVQQIEwlDaGFtcGFnbmUxEDAOBgNVBAcTB0NoYWxvbnMxETAPBgNVBAoT
+CExhIFBvc3RlMREwDwYDVQQLEwhDb3VycmllcjEXMBUGA1UEAxQOSTJBX0ZFREVS
+QVRJT04xLTArBgkqhkiG9w0BCQEWHmNvcy1jZXJ0aWZpY2F0cy5kdHBAbGFwb3N0
+ZS5mcjAeFw0xNTEwMDUxMjA5MDdaFw0xODEwMDQxMjA5MDdaMIG+MQswCQYDVQQG
+EwJGUjEMMAoGA1UECBMDSURGMRAwDgYDVQQHEwdTdCBvdWVuMREwDwYDVQQKEwhM
+YSBQb3N0ZTENMAsGA1UECxMEQlNDQzE+MDwGA1UEAxM1d3d3LmFjYy1iYW5kZWF1
+cG9ydGFpbC5uZXQyLWNvdXJyaWVyLmV4dHJhLmxhcG9zdGUuZnIxLTArBgkqhkiG
+9w0BCQEWHmNvcy1jZXJ0aWZpY2F0cy5kdHBAbGFwb3N0ZS5mcjCCASIwDQYJKoZI
+hvcNAQEBBQADggEPADCCAQoCggEBANcf8CaAOLQgyPZU+32Wdwco6JrAfO5ZA6SS
+95FLQkDCqSvbHVyaI/+CYVQgoUh4vfn5q1Mb9BfQxiMD3xjA+fb6eOrgdLc6k3e6
+uMmjtCSMlGhWMIqU4fFrN3qy0NFhKhYG4CdJQj4niMpOjXP7nhYaEjzqo91ZZlQ8
+O+Q0Hhb6uOvmpY98OI/HrLlAIkUCasMkAy2cnfv1rY1WKU+iCqiF4lfjgS6yGkhD
+/VfsHFYPJBeqoDEcE5AJsSJztIP6pyT3EA9C/aoykJyaQJ83HcXGr4lQ20rDMJkQ
+hfmNazgjn/A2oN8NIV+Qi50bJVwwVXMVal33EEG/dZBlOmR2nwcCAwEAAaOB9DCB
+8TAJBgNVHRMEAjAAMAsGA1UdDwQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYI
+KwYBBQUHAwIwHQYDVR0OBBYEFBmung5Wo85lpGbxF/JB34zHWJF1MB8GA1UdIwQY
+MBaAFJwojhoxxAGALYEWzvQdoV+aL/6VMHgGA1UdEQRxMG+CNXd3dy5hY2MtYmFu
+ZGVhdXBvcnRhaWwubmV0Mi1jb3Vycmllci5leHRyYS5sYXBvc3RlLmZygjZiYWNr
+LmFjYy1iYW5kZWF1cG9ydGFpbC5uZXQyLWNvdXJyaWVyLmV4dHJhLmxhcG9zdGUu
+ZnIwDQYJKoZIhvcNAQEFBQADggEBAClkOmbY71KnU7VOrAcnflR4/IUurFy6fx7z
+YOCo3F1oLq8jeov9oYpZL1QFdVz7YSAhjCQdXdGnTQeoPavaEmTMbHeK/jQbYePo
+DxJi3/8mIXHp1kPll97dAMNorJXzGxDCW6qY0PK3oBFXWnHIwWDH85f3mLFeSGAj
+7zALcQQlJSGMBvwYRDoOGOHWQi1LaMtai4H/OHBlRiRmywfFcyl6AdazqQvxukKX
+k14PTDYMANTu3urMqZ9jWOJanJ9d03o4nGeavcbAK5/Pdi3D8ulGuOA8vTMHsDYG
+pFM4ZXfGavwSvgg2bydL6yT+cU8l1PstQ3eppL2yvx/LXJ8sDJ0=
+-----END CERTIFICATE-----

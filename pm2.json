@@ -1,0 +1,29 @@
+{
+  "apps" : [{
+    // Nom de l'application, ce nom est ensuite utilisable dans la ligne de commande pm2
+    "name"       : "b7_-u1",
+    
+    // répertoire courant d'exécution de l'application
+    "cwd"        : "/b7_/b7_adm/u1",
+    
+    // Nom du fichier script lançant l'application bandeau
+    "script"     : "server.js",
+    
+    // 0  => indique un nombre d'instance égal au nombre de CPU
+    // -1 => indique un nombre de process égal au nombre de CPU-1
+    // TODO : vérifier que c'est bien détecté sur les VMs La Poste
+    "instances"  : 0,
+    
+    // Exécution en mode cluster
+    "exec_mode"  : "cluster_mode",
+    
+    // Pas de surveillance des fichiers applicatifs (pas de rechargement auto)
+    "watch"      : false,
+    
+    // Gestion des logs
+    "error_file" : "/b7_/b7_admaa/u1/logs/b7_-u1.err.log",
+    "out_file"   : "/b7_/b7_admaa/u1/logs/b7_-u1.out.log",
+    "merge_logs" : true,
+    "log_date_format" : "YYYY-MM-DD HH:mm Z"
+    }]
+}

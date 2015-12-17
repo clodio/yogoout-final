@@ -1,0 +1,15 @@
+<html>
+<body>
+<script>
+    setTimeout( function(){
+        if(window.opener){
+            window.opener.postMessage('USER_AUTH_OK', '*');
+	        window.close();
+        } else {
+	        parent.postMessage('USER_AUTH_OK', '*');
+        }
+    }, 1000);
+    //TODO add timeout value to config
+</script>
+</body>
+</html>

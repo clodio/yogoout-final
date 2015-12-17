@@ -1,0 +1,38 @@
+<script type="text/html" id="popover_notification_script_view">
+
+    <div class="headercnx">
+        <span><img src="<%= prefix + "/dist/img/notification.png" %>" alt=""/></span>
+        <span class="text-white text-uppercase text-fat text-left">NOTIFICATIONS</span>
+    </div>
+
+    <div class="inside">
+
+        <div id="scrol" class="content">
+        </div>
+
+        <div class="notification">
+
+            <div class="notification-container">
+
+              <span class="notification-span"><a class="" href="<%= link.subscriptions %>" target="_blank">
+                      <div class="notification-content">
+                          <p class="image"><img src="<%= prefix + "/dist/img/notif.png" %>" alt=""/></p>
+
+                          <p class="abonnements text-gray text-uppercase text-bold text-left">G&Eacute;RER LES
+                              ABONNEMENTS</p>
+                      </div>
+                  </a></span>
+
+                <div class="button">
+                    <form name="login" action="" method="POST">
+                        <button class="btn" id="disconnectButtn"><a><span class="text-white text-uppercase text-bold text-center">SE D&Eacute;CONNECTER</span></a>
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</script>
+

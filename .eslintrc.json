@@ -1,0 +1,25 @@
+{
+    "extends": "standard",
+    "plugins": [
+        "standard"
+    ],
+    "env": {
+      "mocha": true
+    },
+    "ecmaFeatures": {
+      "modules": false
+    },
+    "rules": {
+      "strict": [2, "global"],
+      "indent": [2, 4, {"SwitchCase": 1}],
+      "semi": [2, "always"],
+      "one-var": [2, "never"],
+      "eol-last": 0,
+      "standard/object-curly-even-spacing": 0,
+      "key-spacing": [2, { "beforeColon": false, "afterColon": true }],
+      "indent": 0,
+      "no-trailing-spaces": 0,
+      "no-multiple-empty-lines": 0,
+      "padded-blocks": 0
+    }
+}

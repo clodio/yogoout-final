@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Page de monitoring <%= hostname %></title>
+    <script type="text/javascript" id="bandeau-script" src="<%= prefix + '/dist/js/bandeau.min.js' %>"></script>
+</head>
+<body>
+
+<style type="text/css">
+    .table-sondes {
+        border-collapse:collapse;
+        border-spacing:0;
+        border-color:#000;
+    }
+    .table-sondes td {
+        padding:5px 5px;
+        border-style:solid;
+        border-width:1px;
+        border-color:#000;
+        color:#333;
+    }
+    .table-sondes th {
+        padding:5px 5px;
+        border-style:solid;
+        border-width:1px;
+        border-color:#000;
+        color:#333;
+        background-color:#88c6db;
+    }
+    .table-sondes . {
+        vertical-align:top
+    }
+    .green {
+        background-color:#25D940;
+    }
+    .red {
+        background-color:#E8901C;
+    }
+    .center {
+        text-align:center;
+    }
+</style>
+
+<a href="configs">CONFIGURATION</a>
+<br>
+<pre>
+<b>hostname</b>      : <%= hostname %><br>
+<b>heure serveur</b> : <%= time %><br>
+<b>revision svn</b> : <%= revision %><br>
+
+<table class="table-sondes">
+    <tr>
+        <th>Etat</th>
+        <th>Nom</th>
+        <th>Test Time (ms)</th>
+        <th>Message</th>
+        <th>StackTrace</th>
+        <th>Description</th>
+    </tr>
+<% for(var i=0; i<sondes.length; i++) {%>
+   <tr>
+        <td class="center <%= (sondes[i].etat === 'OK') ? 'green' : 'red' %>" ><%=sondes[i].etat%></td>
+        <td class="center"><%=sondes[i].nom%></td>
+        <td class="center"><%=sondes[i].testTime%></td>
+        <td><%- sondes[i].message%></td>
+        <td><%=sondes[i].stackTrace%></td>
+        <td><%=sondes[i].description%></td>
+   </tr>
+<% } %>
+</table>
+
+</pre>
+
+</body>
+</html>

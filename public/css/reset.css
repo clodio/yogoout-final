@@ -1,0 +1,48 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+#bandeau-portail html, #bandeau-portail body, #bandeau-portail div, #bandeau-portail span, #bandeau-portail applet, #bandeau-portail object, #bandeau-portail iframe,
+h1, #bandeau-portail h2, #bandeau-portail h3, #bandeau-portail h4, #bandeau-portail h5, #bandeau-portail h6, #bandeau-portail p, #bandeau-portail blockquote, #bandeau-portail pre,
+#bandeau-portail a, #bandeau-portail abbr, #bandeau-portail acronym, #bandeau-portail address, #bandeau-portail big, #bandeau-portail cite, #bandeau-portail code,
+del, #bandeau-portail dfn, #bandeau-portail em, #bandeau-portail img, #bandeau-portail ins, #bandeau-portail kbd, #bandeau-portail q, #bandeau-portail s, #bandeau-portail samp,
+small, #bandeau-portail strike, #bandeau-portail strong, #bandeau-portail sub, #bandeau-portail sup, #bandeau-portail tt, #bandeau-portail var,
+b, #bandeau-portail u, #bandeau-portail i, #bandeau-portail center,
+dl, #bandeau-portail dt, #bandeau-portail dd, #bandeau-portail ol, #bandeau-portail ul, #bandeau-portail li,
+fieldset, #bandeau-portail form, #bandeau-portail label, #bandeau-portail legend,
+table, #bandeau-portail caption, #bandeau-portail tbody, #bandeau-portail tfoot, #bandeau-portail thead, #bandeau-portail tr, #bandeau-portail th, #bandeau-portail td,
+article, #bandeau-portail aside, #bandeau-portail canvas, #bandeau-portail details, #bandeau-portail embed,
+figure, #bandeau-portail figcaption, #bandeau-portail header, #bandeau-portail hgroup,
+menu, #bandeau-portail nav, #bandeau-portail output, #bandeau-portail ruby, #bandeau-portail section, #bandeau-portail summary,
+time, #bandeau-portail mark, #bandeau-portail audio, #bandeau-portail video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+#bandeau-portail article, #bandeau-portail aside, #bandeau-portail details, #bandeau-portail figcaption, #bandeau-portail figure,
+#bandeau-portail header, #bandeau-portail hgroup, #bandeau-portail menu, #bandeau-portail nav, #bandeau-portail section {
+    display: block;
+}
+#bandeau-portail body {
+    line-height: 1;
+}
+#bandeau-portail ol, #bandeau-portail ul {
+    list-style: none;
+}
+#bandeau-portail blockquote, #bandeau-portail q {
+    quotes: none;
+}
+#bandeau-portail blockquote:before, #bandeau-portail blockquote:after,
+q:before, #bandeau-portail q:after {
+    content: '';
+    content: none;
+}
+#bandeau-portail table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}

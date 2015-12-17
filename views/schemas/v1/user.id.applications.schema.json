@@ -1,0 +1,80 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "description": "Nom du service",
+      "type": "string"
+    },
+    "merge_roles": {
+      "description": "Cumul des rôles",
+      "type": "boolean"
+    },
+    "logical_access": {
+      "description": "Liste des accès logiques du service",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "description": "Libellé de l'accès logique",
+            "type": "string"
+          },
+          "show_label": {
+            "description": "Afficher le libellé",
+            "type": "boolean"
+          },
+          "access": {
+            "description": "Liste des accès physiques du service",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "show_label": {
+                  "description": "Afficher le libellé",
+                  "type": "string"
+                },
+                "available": {
+                  "description": "Accès physique disponible",
+                  "type": "boolean"
+                },
+                "show": {
+                  "description": "Accès physique visible",
+                  "type": "boolean"
+                },
+                "label": {
+                  "description": "Libellé de l'accès physique",
+                  "type": "string"
+                },
+                "url": {
+                  "description": "URL de l'accès physique",
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "groupe": {
+            "description": "Liste des rôles habilités de l'utilisateur",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "description": "Intitulé du rôle",
+                  "type": "string"
+                },
+                "role": {
+                  "description": "Rôle",
+                  "type": "string"
+                },
+                "accesLogique": {
+                  "description": "Accès logique habilité par ce rôle",
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

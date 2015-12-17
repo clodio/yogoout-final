@@ -1,0 +1,71 @@
+{
+  "is_test_env": true,
+  "ip_vip": "0.0.0.0",
+  "port_ecoute": 8080,
+  "port_ecoute_bis": 9080,
+  "nom_de_domaine": "localhost",
+  "protocole": "https",
+  "port_dans_url": true,
+  "log_console": true,
+  "auto_connect_timeout": 30000,
+
+  "database": {
+    "hostname" : "localhost",
+    "login" : "b7_admaa",
+    "password" : "b7_admaa",
+    "name" : "b7_portail_aa"
+  },
+  "https": {
+    "cle_privee" : "config/certificats/tls-demo-private.pem",
+    "certificat" : "config/certificats/tls-demo-pub.crt",
+    "truststore": [
+      "config/certification_authorities/acc-ws.i2a.courrier.intra.laposte.fr.crt",
+      "config/certification_authorities/ws.i2a.courrier.intra.laposte.fr.crt"
+    ]
+  },
+  "passport": {
+    "sp": {
+      "cert": "config/saml/sp/recette-MOE/cert.pem",
+      "pkey": "config/saml/sp/recette-MOE/privkey.pem"
+    },
+    "idp": {
+      "cert": "config/saml/idp/accostage/cert.pem"
+    },
+    "callback_url": "/sp/assert",
+    "entryPoint": "/devLoginSaml",
+    "issuer": "CILPW317"
+  },
+  "hapi_auth_cookie": {
+    "name": "session",
+    "password": "thepassword",
+    "isSecure": true,
+    "clearInvalid": true,
+    "ttl": 60000
+  },
+  "logs": {
+  	"main_path": "/vagrant/u1/main.log",
+  	"accesslog_path": "/vagrant/u1/access.log",
+  	"main_level":"info",
+  	"accesslog_level":"debug"
+  },
+  "webservices": {
+    "i2a_userApplications_url": "https://acc-ws.i2a.courrier.intra.laposte.fr/v2.0.8/utilisateur/service/idrh/intranet",
+    "i2a_allApplications_url": "https://laposte-portail-entreprise.octo.com",
+    "i2a_ws_login": "login",
+    "i2a_ws_password": "password"
+  },
+  "liens_statiques": {
+    "search": "https://www.google.com",
+    "my_subscriptions": "https://www.bing.com",
+    "home": "http://www.lemonde.fr",
+    "wac": "http://www.wikipedia.com"
+  },
+  "features": {
+    "activer_popup_connexion": true,
+    "activer_connexion_i2a": false,
+    "connexion_sans_i2a_reussie": true,
+    "auto_connect": true,
+    "mock_webservice": true
+  },
+  "activer_feature_flipping": true
+}

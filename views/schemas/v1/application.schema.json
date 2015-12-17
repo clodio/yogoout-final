@@ -1,0 +1,30 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "description": "Nom de l'application",
+      "type": "string"
+    },
+    "short_name": {
+      "description": "Libellé court de l'application",
+      "type": "string"
+    },
+    "default": {
+      "description": "Indique si c'est une application visible par défaut dans le rubicube",
+      "type": "boolean",
+      "default": "false"
+    },
+    "description": {
+      "description": "Courte description de l'application",
+      "type": "string"
+    },
+    "url": {
+      "description": "Url de l'application",
+      "type": "string"
+    },
+    "icon": {
+      "description": "Url de l'icone de l'application",
+      "type": "string"
+    }
+  }
+}

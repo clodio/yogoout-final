@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Test bandeau</title>
+    <script id="bandeau-script" src="<%= baseURL + '/dist/js/bandeau.min.js' %>"></script>
+</head>
+<body>
+<div id="bandeau-portail"></div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h1 id="txt"></h1>
+
+<!-- Code JavaScript qui écoute l'évènement 'UserAuthenticated' et écrit dans la console -->
+<script type="text/javascript">
+    document.addEventListener('UserAuthenticated', function (e) {
+        document.getElementById("txt").innerHTML = "Utilisateur connecté";
+        console.log('Utilisateur connecté');
+    });
+    document.addEventListener('UserDisconnected', function (e) {
+        document.getElementById("txt").innerHTML = "Utilisateur non connecté";
+        console.log('Utilisateur non connecté');
+    });
+</script>
+</body>
+</html>

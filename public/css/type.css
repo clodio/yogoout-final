@@ -1,0 +1,81 @@
+/*
+// Typography
+// --------------------------------------------------
+//
+# [Color codes]
+#
+# White (text): #fff
+# black (text): #000
+# Mid grey (text): #6d6e71
+//
+/*
+
+/* COLORS */
+#bandeau-portail #bandeau .text-black {
+    color: #000 !important;
+}
+
+#bandeau-portail #bandeau .text-white {
+    color: #fff !important;
+}
+
+#bandeau-portail #bandeau .text-gray {
+    color: #6d6e71 !important;
+}
+
+#bandeau-portail #bandeau .text-gray-dark {
+    color: #5d5d5d !important;
+}
+
+#bandeau-portail #bandeau .text-gray-darker {
+    color: #414042 !important;
+}
+
+/* FONTS */
+#bandeau-portail #bandeau .text-bold {
+    font-family: "DINBold-Regular" !important;
+    font-size: 14px !important;
+}
+
+#bandeau-portail #bandeau .text-italic{
+    font-family: "DINItalic-Regular" !important;
+    font-size: 18px !important;
+}
+
+#bandeau-portail #bandeau .text-bold-italic {
+    font-family: "DINBoldItalic-Regular" !important;
+    font-size: 14px !important;
+    line-height: 10px; /* TODO EXPORTER AU PARENT */
+}
+
+#bandeau-portail #bandeau .text-fat {
+    font-family: "DIN-Black" !important;
+    font-size: 18px !important;
+}
+
+#bandeau-portail #bandeau .text-regular {
+    font-family: "DIN-Regular" !important;
+    font-size: 12.25px !important;
+}
+
+
+/* TRANSFORMS */
+#bandeau-portail #bandeau .text-uppercase {
+    text-transform: uppercase !important;
+    font-weight: normal !important;
+}
+
+/* DISPLAY & POSITION */
+#bandeau-portail #bandeau .text-center {
+    text-align: center !important;
+}
+
+#bandeau-portail #bandeau .text-left {
+    text-align: left !important;
+}
+
+#bandeau-portail #bandeau .text-block {
+    display: block;
+}
+
+

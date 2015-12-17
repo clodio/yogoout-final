@@ -1,0 +1,171 @@
+<div class="header1" id="menu">
+    <nav role="navigation" aria-label="Menu principal"><ul class="menu-header" id="header-menu">
+            <li id="<%= espaces.espace1.id %>"> <button href="#" aria-expanded="false" class="dropdown-toggle"><span class="text-uppercase text-bold text-center"><%= espaces.espace1.libelle %></span></button>
+                <ul class="sous-menu-header">
+                    <% espaces.espace1.liens.forEach(function(lien) { %>
+                    <li class="col12 push6">
+                        <% if(lien.url) { %>
+                        <a href="<%= lien.url %>" target="_blank"><span class="text-uppercase text-bold"><%= lien.libelle %></span></a>
+                        <% } else { %>
+                        <a><span class="text-uppercase text-bold"><%= lien.libelle %></span></a>
+                        <% } %>
+                    </li>
+                    <% }) %>
+                </ul>
+            </li>
+
+            <li id="<%= espaces.espace2.id %>"> <button href="#" aria-expanded="false" class="dropdown-toggle"><span class="text-uppercase text-bold text-center"><%= espaces.espace2.libelle %></span></button>
+                <ul class="sous-menu-header">
+                    <% espaces.espace2.liens.forEach(function(lien) { %>
+                    <li class="col12 push6">
+                        <% if(lien.url) { %>
+                        <a href="<%= lien.url %>" target="_blank"><span class="text-uppercase text-bold"><%= lien.libelle %></span></a>
+                        <% } else { %>
+                        <a><span class="text-uppercase text-bold"><%= lien.libelle %></span></a>
+                        <% } %>
+                    </li>
+                    <% }) %>
+                </ul>
+            </li>
+
+            <li id="carte-services"> <button href="#" aria-expanded="false" class="dropdown-toggle"><span class="text-uppercase text-bold text-center">SERVICES</span></button>
+                <ul class="sous-menu-header">
+                    <li class="col15 push2">
+                        <div class="col10" id="mapLinkList">
+                            <h2>DIRECTIONS SERVICES COURRIER COLIS :</h2>
+                            <ul id="region-list">
+                                <li class="col9"><a id="mapLink-01" href="http://www.dotc.courrier.intra.laposte.fr/site/ain_haute_savoie" target="_blank">AIN-RHONE</a></li>
+                                <li class="col9"><a id="mapLink-02" href="http://www.dotc.courrier.intra.laposte.fr/site/alsace" target="_blank">ALSACE</a></li>
+                                <li class="col9"><a id="mapLink-03" href="http://www.dotc.courrier.intra.laposte.fr/site/anjou_maine" target="_blank">ANJOU-MAINE</a></li>
+                                <li class="col9"><a id="mapLink-04" href="http://www.dotc.courrier.intra.laposte.fr/site/auvergne" target="_blank">AUVERGNE</a></li>
+                                <li class="col9"><a id="mapLink-05" href="http://www.dotc.courrier.intra.laposte.fr/site/aquitaine_nord" target="_blank">AQUITAINE NORD</a></li>
+                                <li class="col9"><a id="mapLink-25" href="http://www.dotc.courrier.intra.laposte.fr/site/basse_normandie" target="_blank">BASSE-NORMANDIE</a></li>
+                                <li class="col9"><a id="mapLink-34" href="#" >BEAUCE-SOLOGNE</a></li>
+                                <li class="col9"><a id="mapLink-07" href="#" >BOUCHE-DU-RHONE</a></li>
+                                <li class="col9"><a id="mapLink-08" href="http://www.dotc.courrier.intra.laposte.fr/site/bourgogne" target="_blank">BOURGOGNE</a></li>
+                                <li class="col9"><a id="mapLink-45" href="#" >CORSE</a></li>
+                                <li class="col9"><a id="mapLink-11" href="#" >COTE D'AZUR</a></li>
+                                <li class="col9"><a id="mapLink-41" href="#" >DPOM</a></li>
+                                <li class="col9"><a id="mapLink-12" href="http://www.dotc.courrier.intra.laposte.fr/site/essonne" target="_blank">ESSONNE</a></li>
+                                <li class="col9"><a id="mapLink-13" href="#" >FRANCHE-COMTÉ</a></li>
+                                <li class="col9"><a id="mapLink-40" href="http://www.dotc.courrier.intra.laposte.fr/site/golfe_du_lion" target="_blank">GOLFE DU LION</a></li>
+                                <li class="col9"><a id="mapLink-10" href="http://www.dotc.courrier.intra.laposte.fr/site/haute_bretagne" target="_blank">HAUTE-BRETAGNE</a></li>
+                                <li class="col9"><a id="mapLink-26" href="http://www.dotc.courrier.intra.laposte.fr/site/haute_normandie" target="_blank">HAUTE-NORMANDIE</a></li>
+                                <li class="col9"><a id="mapLink-32" href="http://www.dotc.courrier.intra.laposte.fr/site/hauts_de_seine" target="_blank">HAUTS-DE-SEINE</a></li>
+                                <li class="col9"><a id="mapLink-15" href="http://www.dotc.courrier.intra.laposte.fr/site/isere_savoie" target="_blank">ISERE-PAYS DE SAVOIE</a></li>
+                                <li class="col9"><a id="mapLink-38" href="http://www.dotc.courrier.intra.laposte.fr/site/les_pays_de_l_adour" target="_blank">LES PAYS DE L'ADOUR</a></li>
+                                <li class="col9"><a id="mapLink-16" href="http://www.dotc.courrier.intra.laposte.fr/site/limousin" target="_blank">LIMOUSIN</a></li>
+                                <li class="col9"><a id="mapLink-17" href="http://www.dotc.courrier.intra.laposte.fr/site/loire_atlantique_vendee" target="_blank">LOIRE-ATLANTIQUE-VENDEE</a></li>
+                                <li class="col9"><a id="mapLink-18" href="http://www.dotc.courrier.intra.laposte.fr/site/loire_vallee_du_rhone" target="_blank">LOIRE-VALLEE DU RHONE</a></li>
+                                <li class="col9"><a id="mapLink-19" href="http://www.dotc.courrier.intra.laposte.fr/site/lorraine" target="_blank">LORRAINE</a></li>
+                                <li class="col9"><a id="mapLink-20" href="http://www.dotc.courrier.intra.laposte.fr/site/meuse_champagne_ardenne" target="_blank">MEUSE-CHAMPAGNE-ARDENNE</a></li>
+                                <li class="col9"><a id="mapLink-21" href="http://www.dotc.courrier.intra.laposte.fr/site/midi_pyrenees_nord" target="_blank">MIDI-PYRENEES NORD</a></li>
+                                <li class="col9"><a id="mapLink-22" href="http://www.dotc.courrier.intra.laposte.fr/site/midi_pyrenees_sud" target="_blank">MIDI-PYRENEES SUD</a></li>
+                                <li class="col9"><a id="mapLink-14" href="http://www.dotc.courrier.intra.laposte.fr/site/monts_et_provence" target="_blank">MONTS ET PROVENCE</a></li>
+                                <li class="col9"><a id="mapLink-24" href="http://www.dotc.courrier.intra.laposte.fr/site/nord" target="_blank">NORD</a></li>
+                                <li class="col9"><a id="mapLink-09" href="#" >OUEST-BRETAGNE</a></li>
+                                <li class="col9"><a id="mapLink-27" href="http://www.dotc.courrier.intra.laposte.fr/site/paris_sud" target="_blank">PARIS</a></li>
+                                <li class="col9"><a id="mapLink-28" href="http://www.dotc.courrier.intra.laposte.fr/site/pas_de_calais" target="_blank">PAS-DE-CALAIS</a></li>
+                                <li class="col9"><a id="mapLink-29" href="http://www.dotc.courrier.intra.laposte.fr/site/picardie" target="_blank">PICARDIE</a></li>
+                                <li class="col9"><a id="mapLink-30" href="http://www.dotc.courrier.intra.laposte.fr/site/poitou_charentes" target="_blank">POITOU CHARENTES</a></li>
+                                <li class="col9"><a id="mapLink-33" href="http://www.dotc.courrier.intra.laposte.fr/site/seine_et_marne" target="_blank">SEINE-ET-MARNE</a></li>
+                                <li class="col9"><a id="mapLink-31" href="http://www.dotc.courrier.intra.laposte.fr/site/seine_saint_denis" target="_blank">SEINE-SAINT-DENIS</a></li>
+                                <li class="col9"><a id="mapLink-06" href="http://www.dotc.courrier.intra.laposte.fr/site/touraine_berry" target="_blank">TOURAINE-BERRY</a></li>
+                                <li class="col9"><a id="mapLink-36" href="http://www.dotc.courrier.intra.laposte.fr/site/val_d_oise" target="_blank">VAL D'OISE</a></li>
+                                <li class="col9"><a id="mapLink-35" href="http://www.dotc.courrier.intra.laposte.fr/site/val_de_marne" target="_blank">VAL-DE-MARNE</a></li>
+                                <li class="col9"><a id="mapLink-37" href="http://www.dotc.courrier.intra.laposte.fr/site/yvelines" target="_blank">YVELINES</a></li>
+                            </ul>
+                        </div>
+                        <div class="col8 map">
+                            <div id="vmap" style="width: 100%;"></div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+
+
+            <li id="<%= espaces.espace3.id %>"> <button href="#" aria-expanded="false" class="dropdown-toggle"><span class="text-uppercase text-bold text-center"><%= espaces.espace3.libelle %></span></button>
+                <ul class="sous-menu-header">
+                    <% espaces.espace3.liens.forEach(function(lien) { %>
+                    <li class="col12 push6">
+                        <% if(lien.url) { %>
+                        <a href="<%= lien.url %>" target="_blank"><span class="text-uppercase text-bold"><%= lien.libelle %></span></a>
+                        <% } else { %>
+                        <a><span class="text-uppercase text-bold"><%= lien.libelle %></span></a>
+                        <% } %>
+                    </li>
+                    <% }) %>
+                </ul>
+            </li>
+
+            <li id="<%= espaces.espace4.id %>"> <button href="#" aria-expanded="false" class="dropdown-toggle"><span class="text-uppercase text-bold text-center"><%= espaces.espace4.libelle %></span></button>
+                <ul class="sous-menu-header">
+                    <% espaces.espace4.liens.forEach(function(lien) { %>
+                    <li class="col12 push6">
+                        <% if(lien.url) { %>
+                        <a href="<%= lien.url %>" target="_blank"><span class="text-uppercase text-bold"><%= lien.libelle %></span></a>
+                        <% } else { %>
+                        <a><span class="text-uppercase text-bold"><%= lien.libelle %></span></a>
+                        <% } %>
+                    </li>
+                    <% }) %>
+                </ul>
+            </li>
+
+            <li id="<%= espaces.espace5.id %>">  <button href="#" aria-expanded="false" class="dropdown-toggle"><span class="text-uppercase text-bold text-center"><%= espaces.espace5.libelle %></span></button>
+                <ul class="sous-menu-header">
+                    <% espaces.espace5.liens.forEach(function(lien) { %>
+                    <li class="col12 push6">
+                        <% if(lien.url) { %>
+                        <a href="<%= lien.url %>" target="_blank"><span class="text-uppercase text-bold"><%= lien.libelle %></span></a>
+                        <% } else { %>
+                        <a><span class="text-uppercase text-bold"><%= lien.libelle %></span></a>
+                        <% } %>
+                    </li>
+                    <% }) %>
+                </ul>
+            </li>
+
+            <li id="<%= espaces.espace6.id %>">  <button href="#" aria-expanded="false" class="dropdown-toggle"><span class="text-uppercase text-bold text-center"><%= espaces.espace6.libelle %></span></button>
+                <ul class="sous-menu-header">
+                    <% espaces.espace6.liens.forEach(function(lien) { %>
+                    <li class="col12 push6">
+                        <% if(lien.url) { %>
+                        <a href="<%= lien.url %>" target="_blank"><span class="text-uppercase text-bold"><%= lien.libelle %></span></a>
+                        <% } else { %>
+                        <a><span class="text-uppercase text-bold"><%= lien.libelle %></span></a>
+                        <% } %>
+                    </li>
+                    <% }) %>
+                </ul>
+            </li>
+
+            <li id="<%= espaces.espace7.id %>">  <button href="#" aria-expanded="false" class="dropdown-toggle"><span class="text-uppercase text-bold text-center"><%= espaces.espace7.libelle %></span></button>
+                <ul class="sous-menu-header">
+                    <% espaces.espace7.liens.forEach(function(lien) { %>
+                    <li class="col12 push6">
+                        <% if(lien.url) { %>
+                        <a href="<%= lien.url %>" target="_blank"><span class="text-uppercase text-bold"><%= lien.libelle %></span></a>
+                        <% } else { %>
+                        <a><span class="text-uppercase text-bold"><%= lien.libelle %></span></a>
+                        <% } %>
+                    </li>
+                    <% }) %>
+                </ul>
+            </li>
+
+            <li id="<%= espaces.espace8.id %>">  <button href="#" aria-expanded="false" class="dropdown-toggle"><span class="text-uppercase text-bold text-center"><%= espaces.espace8.libelle %></span></button>
+                <ul class="sous-menu-header">
+                    <% espaces.espace8.liens.forEach(function(lien) { %>
+                    <li class="col12 push6">
+                        <% if(lien.url) { %>
+                        <a href="<%= lien.url %>" target="_blank"><span class="text-uppercase text-bold"><%= lien.libelle %></span></a>
+                        <% } else { %>
+                        <a><span class="text-uppercase text-bold"><%= lien.libelle %></span></a>
+                        <% } %>
+                    </li>
+                    <% }) %>
+                </ul>
+            </li>
+        </ul></nav>
+</div>
