@@ -5,7 +5,7 @@ var os = require('os');
 var formats = require('./app/utils/formats.js');
 
 var environments = ['prod', 'test', 'moe', 'accostage', 'sles11-sp3', 'laposte-portail-dev', 'laposte-portail-udd', 'CILPW317',
-    'CQYV0906', 'CQYV0907', 'CQYV0908', 'CQYV0909', 'CQYV0910', 'CQYV0911', 'CQYV0912', 'CPYV0687', 'CPYV0688', 'CPYV0689', 'CPYV0690'];
+    'CQYV0906', 'CQYV0907', 'CQYV0908', 'CQYV0909', 'CQYV0910', 'CQYV0911', 'CQYV0912', 'CPYV0687', 'CPYV0688', 'CPYV0689', 'CPYV0690','781630ZM0006'];
 
 // TODO set default values to null
 // TODO delete nested levels (hapi)
@@ -153,6 +153,11 @@ var config = convict({
         truststore: {
             doc: 'liste des certificats server externes à intégrer pour autoriser les appels HTTPS sortants',
             format: Array,
+           default: null
+        },
+        autorite_certification_i2a: {
+            doc: 'autorite_certification_i2a',
+            format: String,
             default: null
         }
     },
@@ -264,6 +269,11 @@ var config = convict({
         },
         i2a_allApplications_url: {
             doc: 'URL du web service i2a',
+            format: String,
+            default: null
+        },
+        i2a_authorisation: {
+            doc: 'URL dtodo',
             format: String,
             default: null
         },
@@ -446,4 +456,3 @@ config.refresh();
 config.validate({ strict: true });
 
 module.exports = config;
-

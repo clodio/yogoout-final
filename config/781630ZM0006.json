@@ -1,0 +1,69 @@
+{
+  "ip_vip": "127.0.0.1",
+  "ip_exp": "127.0.0.1",
+  "port_ecoute": 8443,
+  "nom_de_domaine": "localhost",
+  "protocole": "http",
+  "port_dans_url": false,
+  "log_console": false,
+  "auto_connect_timeout": 43200000,
+
+  "database": {
+    "hostname" : "localhost",
+    "login" : "b7_admaa",
+    "password" : "b7_admaa",
+    "name" : "b7_portail_aa"
+  },
+  "logs": {
+  	"main_path": "./logs/b7_-u1-main.log",
+  	"accesslog_path": "./logs/b7_-u1-access.log",
+  	"main_level":"info",
+  	"accesslog_level":"info"
+  },
+  "hapi_auth_cookie": {
+    "name": "session",
+    "password": "lMUFczMTcxGzAZBgkqhkiG9w0BCQEW",
+    "isSecure": true,
+    "clearInvalid": true,
+    "ttl": 86400000
+  },
+  "passport": {
+    "sp": {
+      "cert": "config/saml/sp/pre-prod/cert.pem",
+      "pkey": "config/saml/sp/pre-prod/privkey.pem"
+    },
+    "idp": {
+      "cert": "./config/saml/idp/accostage/cert.pem"
+    },
+    "callback_url": "https://www.bandeauportail.net2-courrier.extra.laposte.fr/sp/assert",
+    "entryPoint": "https://idp.acc-authentification.courrier.intra.laposte.fr/FIM/sps/Courrier/saml20/login",
+    "issuer": "https://www.bandeauportail.net2-courrier.extra.laposte.fr"
+  },
+  "https": {
+    "cle_privee": "./config/certificats/pp/www.bandeauportail.net2-courrier.extra.laposte.fr.key",
+    "certificat":"./config/certificats/pp/www.bandeauportail.net2-courrier.extra.laposte.fr.crt",
+    "autorite_certification_i2a": "./config/certification_authorities/acc-ws.i2a.courrier.intra.laposte.fr.crt",
+    "truststore":[]
+  },
+  "webservices": {
+    "i2a_userApplications_url": "https://acc-ws.i2a.courrier.intra.laposte.fr/v2.0.8/utilisateur/service/idrh/intranet",
+    "i2a_allApplications_url": "https://acc-ws.i2a.courrier.intra.laposte.fr/v2.0.8/service",
+    "i2a_authorisation": "IM_UD-B7_U1:Zku6Dt67U_t92",
+    "i2a_ws_login": "tochange_error",
+    "i2a_ws_password": "IM_UD-tochange_error:tochange_error"
+  },
+  "liens_statiques": {
+    "search": "https://www.toile.net2-courrier.extra.laposte.fr/recherche",
+    "my_subscriptions": "https://www.toile.net2-courrier.extra.laposte.fr/gerer-mes-abonnements",
+    "home": "https://www.toile.net2-courrier.extra.laposte.fr",
+    "wac": "http://www.wac.courrier.intra.laposte.fr"
+  },
+  "features": {
+    "activer_popup_connexion": true,
+    "activer_connexion_i2a": true,
+    "connexion_sans_i2a_reussie": false,
+    "auto_connect": true,
+    "mock_webservice": false
+  },
+  "activer_feature_flipping": false
+}

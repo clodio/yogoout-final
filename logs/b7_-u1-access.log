@@ -1,0 +1,16 @@
+{"method":"get","status":200,"path":"/","query":{},"time":42,"event":"responded","reqid":"919cbf21-2d4a-44c3-8714-8088779fb8dc","level":"info","message":"","timestamp":"2015-12-17T16:20:23.182Z"}
+{"method":"get","path":"/favicon.ico","query":{},"time":10,"event":"responded","reqid":"87639d4c-531c-4f16-b086-4677aa192e6a","level":"info","message":"","timestamp":"2015-12-17T16:20:23.925Z"}
+{"method":"get","status":200,"path":"/","query":{},"time":8,"event":"responded","reqid":"6c729454-c6bc-4eec-810d-c82ba69e16c1","level":"info","message":"","timestamp":"2015-12-17T16:20:32.168Z"}
+{"method":"get","path":"/yo","query":{},"time":9,"event":"responded","reqid":"d8797f07-16d3-4127-8138-1e763c4ecfff","level":"info","message":"","timestamp":"2015-12-17T16:20:42.321Z"}
+{"method":"get","status":200,"path":"/","query":{},"time":3,"event":"responded","reqid":"a0f670a5-c153-40fc-8875-83acc7c9c137","level":"info","message":"","timestamp":"2015-12-17T16:22:03.328Z"}
+{"method":"get","status":200,"path":"/","query":{},"time":3,"event":"responded","reqid":"c7f464ea-71c7-4e1e-ade7-009a36ac5634","level":"info","message":"","timestamp":"2015-12-17T16:22:05.126Z"}
+{"method":"get","status":200,"path":"/is_authenticated","query":{},"time":37,"event":"responded","reqid":"fb4bb271-5edb-47c5-aa04-098039eb1bb0","level":"info","message":"","timestamp":"2015-12-17T16:24:49.462Z"}
+{"method":"get","path":"/favicon.ico","query":{},"time":10,"event":"responded","reqid":"de8cd330-be2b-4ddd-a520-e4fd1a32ccac","level":"info","message":"","timestamp":"2015-12-17T16:24:50.464Z"}
+{"method":"get","status":200,"path":"/template","query":{},"time":104,"event":"responded","reqid":"f03e814d-b3ec-48c2-abe8-e2abe83dbfdc","level":"info","message":"","timestamp":"2015-12-17T16:25:06.663Z"}
+{"method":"get","status":200,"path":"/test-modules","query":{},"time":11,"event":"responded","reqid":"8c675b43-585b-450f-8131-0e1e70115fc2","level":"info","message":"","timestamp":"2015-12-17T16:25:33.317Z"}
+{"method":"get","path":"/test/data","query":{},"time":2,"event":"responded","reqid":"dd421687-7bc6-4d44-aabe-0091300ff660","level":"info","message":"","timestamp":"2015-12-17T16:26:10.268Z"}
+{"method":"get","status":200,"path":"/","query":{},"time":6,"event":"responded","reqid":"f6a59815-777a-4df1-ad88-a62eca89e7b1","level":"info","message":"","timestamp":"2015-12-17T16:26:14.293Z"}
+{"method":"get","status":200,"path":"/","query":{},"time":4,"event":"responded","reqid":"cf7017a8-a102-43b4-ace3-e89207236fc1","level":"info","message":"","timestamp":"2015-12-17T16:26:17.327Z"}
+{"method":"get","path":"/dist/js/bandeau.min.js%22","query":{},"time":9,"event":"responded","reqid":"4dce1ca0-5701-4fa9-8ff1-1e1fe84f74c1","level":"info","message":"","timestamp":"2015-12-17T16:26:30.395Z"}
+{"method":"get","path":"/dist/js/bandeau.min.js","query":{},"time":3,"event":"responded","reqid":"23ce67e0-6e69-4acb-a692-28084fa72ba9","level":"info","message":"","timestamp":"2015-12-17T16:26:35.276Z"}
+{"method":"get","path":"/dist/js/bandeau.min.js","query":{},"time":2,"event":"responded","reqid":"fc61b874-bd4e-4aa5-8bd2-4864add17ff4","level":"info","message":"","timestamp":"2015-12-17T16:26:39.960Z"}
